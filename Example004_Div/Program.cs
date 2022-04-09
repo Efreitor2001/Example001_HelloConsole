@@ -1,0 +1,10 @@
+﻿Console.WriteLine("Введите первое число...");
+var numA = double.Parse(Console.ReadLine());
+Console.WriteLine("Введите второе число...");
+var numB = double.Parse(Console.ReadLine());
+double result = numA / numB;
+Console.Write(numA);
+Console.Write(" : ");
+Console.Write(numB);
+Console.Write(" = ");
+Console.Write(result);
